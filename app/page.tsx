@@ -1,11 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
+import {FaInstagram} from "react-icons/fa";
 
 export default function Home() {
     return (
         <div
             className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-            {/*<div className="fixed top-0 left-0 right-0 bottom-0 bg-blue-400 z-10"/>*/}
-
             <main className="flex flex-col gap-6 row-start-2 items-center justify-center z-20">
                 <Image
                     src="/logo.svg"
@@ -29,9 +29,12 @@ export default function Home() {
                 />
 
                 <h1 className="text-gray-500 text-center">
-                    Give us a bit more time to finish what we are building.<br/>Thank you <span
-                    className="text-red-500">human.</span>
+                    We are just getting started. We will be live in no time. Follow us on our social medias to stay connected.
                 </h1>
+
+                <Link href="https://instagram.com/humanthings.al" target="_blank">
+                    <FaInstagram title="Instagram" size={32} className="hover:text-red-500" />
+                </Link>
             </main>
         </div>
     );
