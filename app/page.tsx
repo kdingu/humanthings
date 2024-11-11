@@ -18,13 +18,13 @@ export default function Home() {
                 <div
                     className="animated-bg-1"
                     style={{
-                        backgroundImage: `url('/logo.svg'`,
+                        backgroundImage: `url('/background.jpg')`,
                     }}
                 />
                 <div
                     className="animated-bg-2"
                     style={{
-                        backgroundImage: `url('/logo.svg'`,
+                        backgroundImage: `url('/background.jpg')`,
                     }}
                 />
 
