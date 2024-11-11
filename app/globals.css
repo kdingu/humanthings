@@ -7,7 +7,7 @@
 }
 
 .animated-bg-1 {
-    filter: blur(2px);
+    filter: blur(6px);
     animation-name: MOVE-BG-1;
     animation-duration: 100s;
     animation-timing-function: linear;
@@ -24,7 +24,7 @@
 }
 
 .animated-bg-2 {
-    filter: blur(2px);
+    filter: blur(6px);
     animation-name: MOVE-BG-2;
     animation-duration: 100s;
     animation-timing-function: linear;
